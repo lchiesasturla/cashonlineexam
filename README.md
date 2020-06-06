@@ -14,7 +14,7 @@ Posteriormente, se debe importar el proyecto de la carpeta examen. Una vez impor
 spring.datasource.username = (Aca se debe poner el usuario con el que accedan al motor de base de datos)
 spring.datasource.password =(Aca se debe poner la contraseña con la que accedan al motor de base de datos)
 
-Una vez modificado eso se debe hacer un build & clean, este creara las tablas e insertara 4 usuarios y 8 prestamos. Una vez hecho esto se debe deployar la aplicacion, la cual creara otros 5 usuarios y 8 prestamos mas. Ahi ya se pueden probar los endpoints solicitados.
+Una vez modificado eso se debe hacer un build & clean, este creara las tablas e insertara 4 usuarios y 8 prestamos. Una vez hecho esto se debe ejecutar la aplicacion con los siguientes maven goals: clean install spring-boot:run, lo cual creara otros 5 usuarios y 8 prestamos mas. Una vez iniciada la aplicacion, se puede probar los endpoints solicitados. En caso de que haya problemas con respecto a la time_zone en el mySQL, se debe ejecutar el script fixTimeZone.sql incluido en la carpeta de scripts.
 
 GET - users/{id}
 POST - users
