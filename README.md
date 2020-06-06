@@ -14,7 +14,7 @@ Posteriormente, se debe importar el proyecto de la carpeta examen. Una vez impor
 spring.datasource.username = (Aca se debe poner el usuario con el que accedan al motor de base de datos)
 spring.datasource.password =(Aca se debe poner la contraseña con la que accedan al motor de base de datos)
 
-Una vez modificado eso se debe hacer un build & clean, este creara las tablas e insertara 5 usuarios y 8 prestamos. Una vez hecho esto se debe deployar la aplicacion, la cual creara otros 5 usuarios y 8 prestamos mas. Ahi ya se pueden probar los endpoints solicitados.
+Una vez modificado eso se debe hacer un build & clean, este creara las tablas e insertara 4 usuarios y 8 prestamos. Una vez hecho esto se debe deployar la aplicacion, la cual creara otros 5 usuarios y 8 prestamos mas. Ahi ya se pueden probar los endpoints solicitados.
 
 GET - users/{id}
 POST - users
